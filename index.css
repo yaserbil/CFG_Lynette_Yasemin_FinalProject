@@ -4,30 +4,58 @@ body {
 }
 
 .header {
-	margin: 5px;
-	padding: 10px;
-	border: 1px solid black;
-	border-width: 1px 0px;
-	border-radius: 10px 10px 10px 10px;
-	text-align: center;
-	font-size: 26px;
+	width: 98%;
+	height: 60px;
+	background-color: black;
+	border-radius: 12px;
 }
+
+/* Logo and Name */
+.logo {
+	color: white;
+	font-size: 24px;
+	font-family: 'Orbitron', sans-serif;
+	display: inline;
+	margin: 10px;
+    padding: 10px;
+    border: 0px solid black;
+	float: left;
+}
+
 
 /* Navigation Bar */
 .navbar {
 	font-size: 12px;
-	background-color: white;
+	color: white;
     list-style: none;
-	margin: auto;
+	margin: 10px;
     padding: 10px;
     border: 0px solid black;
 	text-align: center;
+	float: right;
 }
 ul.navbar li {
 	display: inline;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px 10px 10px 10px;
     text-align: center;
+    padding: 10px;
+    
+}
+
+/* Links and URL's */
+a {
+	color: white;
+}
+a:hover {
+	font-weight: bold;
+	text-decoration: none;	
+}
+a:active {
+	text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
 }
