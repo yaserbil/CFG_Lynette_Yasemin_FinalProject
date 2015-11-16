@@ -30,10 +30,10 @@ body {
 
 .logo {
 	display: inline;
-	font-size: 24px;
+	font-size: 12px;
 	font-family: 'Orbitron', sans-serif;	
 	color: black;
-	margin-top: 0;
+	margin-top: 0px;
 	text-align: left;
     border: 0px solid black;
     float: left;
@@ -41,7 +41,7 @@ body {
 
 /* Navigation Bar */
 .navbar {
-	display: inline;
+	display: inline-block;
 	font-size: 14px;
 	margin-top: 10px;
     border: 0px solid black;
