@@ -24,8 +24,16 @@ body {
 	border-radius: 10px;
 	position: fixed;
 	width: 98%;
-	height: 75px;
+	height: 95px;
 	background-color: #ffffff;
+}
+
+#description {
+    text-align: left
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 .logo {
@@ -33,6 +41,7 @@ body {
 	font-size: 12px;
 	font-family: 'Orbitron', sans-serif;	
 	color: black;
+	padding-right: 10px;
 	margin-top: 0px;
 	text-align: left;
     border: 0px solid black;
@@ -43,7 +52,7 @@ body {
 .navbar {
 	display: inline-block;
 	font-size: 14px;
-	margin-top: 10px;
+	margin-top: 15px;
     border: 0px solid black;
 	text-align: right;
 	float: right;
@@ -59,7 +68,6 @@ ul.navbar li {
 }
 
 
-
 /* Main Text and Stuff*/
 .main {
 	clear: both;
@@ -69,19 +77,18 @@ ul.navbar li {
 	width: 90%;
 	border-radius: 10px;
 	border: 0px solid black;
-	margin: 75px 10px 10px 60px;
+	margin: 95px 10px 0px 60px;
 	padding: 1px;		
 }
 
 h2 {
-	font-family: 'Orbitron', sans-serif;
+	font-family: Tahoma, Geneva, sans-serif
 }
 
 .article {
 	clear: both;
-	border: 3px solid black;
 	padding: 10px;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 	border-radius: 10px;
 	color: black;
 	background-color: white;
@@ -89,7 +96,7 @@ h2 {
 
 .review {
 	
-	display: inline-block;
+
 }
 
 .trailer {
@@ -125,7 +132,7 @@ iframe {
 
 
 .left {
-	margin-top: 75px;
+	margin-top: 95px;
 	position: fixed;
 }
 
