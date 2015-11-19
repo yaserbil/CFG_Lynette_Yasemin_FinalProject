@@ -1,0 +1,204 @@
+
+/* General Body */
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px; 
+    background-image: url("http://www.wncfilm.net/wp-content/uploads/2015/07/11595-stylized-womans-face-1920x1080-digital-art-wallpaper.jpg");  
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Headers and Logos */
+.header {
+	z-index: 1;
+	display: block;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 0px solid black;
+	border-radius: 10px;
+	position: fixed;
+	width: 98%;
+	height: 95px;
+	background-color: #ffffff;
+}
+
+#description {
+    text-align: left
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.logo {
+	display: inline;
+	font-size: 12px;
+	font-family: 'Orbitron', sans-serif;	
+	color: black;
+	padding-right: 10px;
+	margin-top: 0px;
+	text-align: left;
+    border: 0px solid black;
+    float: left;
+}
+
+/* Navigation Bar */
+.navbar {
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 15px;
+    border: 0px solid black;
+	text-align: right;
+	float: right;
+}
+ul.navbar li {
+	display: inline;
+    padding: 0px 10px 0px 0px;
+    border: 0px solid black;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/* Main Text and Stuff*/
+.main {
+	clear: both;
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 90%;
+	border-radius: 10px;
+	border: 0px solid black;
+	margin: 95px 10px 0px 60px;
+	padding: 1px;
+}
+
+h2 {
+	font-family: Tahoma, Geneva, sans-serif
+}
+
+.article {
+	clear: both;
+	padding: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	padding-right: 20px;
+}
+
+
+.right {
+	margin: 45px 10px 10px 10px;
+	padding: 1px;
+	border-radius: 10px;
+	border: 0px solid black;
+	text-align: center;
+	display: inline;
+	float: right;
+	position: fixed;
+	right: 0;
+	width: 20%;
+	background-color: white;
+}
+
+.box {
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid black;
+	text-align: center;	
+}
+
+
+.left {
+	margin-top: 95px;
+	position: fixed;
+}
+
+/*    Spinning rollover animation     */
+
+.social-roll  {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	float: left;
+	margin: 3px;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+
+.social-roll:hover  {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	float: left;
+	margin: 3px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
+
+
+
+/* Links and URL's */
+a {
+	color: #7575A3;
+    text-decoration: none;
+}
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:active {
+	
+}
+a:link {
+    
+}
+a:visited {
+ 
+}
+
