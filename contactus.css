@@ -125,6 +125,10 @@ h2 {
 	position: fixed;
 }
 
+#emailinput {
+	text-align: left;
+}
+
 /*    Spinning rollover animation     */
 
 .social-roll  {
